@@ -6,7 +6,7 @@
 
     import Keycloak from 'keycloak-js'
     import type { KeycloakInitOptions, KeycloakLoginOptions } from 'keycloak-js'
-    import { LabelMap, defaultLabels } from './localization'
+    import { type LabelMap, defaultLabels } from './localization'
 
     export let url: string
     export let realm: string
